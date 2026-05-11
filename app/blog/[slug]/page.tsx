@@ -58,8 +58,6 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Back nav */}
       <div style={{ maxWidth: 760, margin: "0 auto", padding: "32px 24px 0" }}>
         <Link href="/#blog" style={{ display: "inline-flex", alignItems: "center", gap: 6, fontFamily: "var(--font-mono)", fontSize: 12, color: "#567088", textDecoration: "none", transition: "color .2s" }}
-          onMouseEnter={e => ((e.target as HTMLElement).style.color = "#00d9ff")}
-          onMouseLeave={e => ((e.target as HTMLElement).style.color = "#567088")}
         >
           ← Back to Portfolio
         </Link>
