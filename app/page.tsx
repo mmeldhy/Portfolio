@@ -13,7 +13,8 @@ import BackToTop from "@/components/BackToTop";
 import LoadingScreen from "@/components/LoadingScreen";
 import ParticleCanvas from "@/components/ParticleCanvas";
 
-const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? "dhiyaulhaq";
+const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? "memeldhy";
+const WAKATIME_USERNAME = process.env.NEXT_PUBLIC_WAKATIME_USERNAME ?? "memeldhy";
 
 function SectionDivider() {
   return <div style={{ height: 1, background: "linear-gradient(90deg, transparent, #162033 30%, #162033 70%, transparent)", margin: "0 24px" }} />;

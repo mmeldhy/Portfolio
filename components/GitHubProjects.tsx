@@ -1,6 +1,6 @@
 import { getGitHubData, mapContribColor, timeAgo } from "@/lib/github";
 
-const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? "dhiyaulhaq";
+const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? "memeldhy";
 
 const LANG_COLORS: Record<string, string> = {
   Python: "#3572A5", TypeScript: "#3178c6", JavaScript: "#f1e05a",

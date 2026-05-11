@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 // Replace with your Wakatime username
-const WAKATIME_USERNAME = process.env.NEXT_PUBLIC_WAKATIME_USERNAME ?? "dhiyaulhaq";
+const WAKATIME_USERNAME = process.env.NEXT_PUBLIC_WAKATIME_USERNAME ?? "memeldhy";
 
 interface WakaStats {
   totalHours: number;
@@ -51,7 +51,7 @@ export default function WakatimeWidget() {
     // Wakatime public stats API (requires public profile enabled)
     // Docs: https://wakatime.com/developers#stats
     const fetchStats = async () => {
-      if (!WAKATIME_USERNAME || WAKATIME_USERNAME === "dhiyaulhaq") {
+      if (!WAKATIME_USERNAME || WAKATIME_USERNAME === "memeldhy") {
         // Using mock data — set NEXT_PUBLIC_WAKATIME_USERNAME to enable
         return;
       }

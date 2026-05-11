@@ -114,28 +114,28 @@ export default function CommandPalette() {
     {
       id: "github-profile",
       label: "Open GitHub Profile",
-      description: "github.com/dhiyaulhaq",
+      description: "github.com/memeldhy",
       icon: LINK_ICON,
-      action: () => window.open("https://github.com/dhiyaulhaq", "_blank"),
+      action: () => window.open("https://github.com/memeldhy", "_blank"),
       category: "Links",
     },
     {
       id: "linkedin",
       label: "Open LinkedIn",
-      description: "linkedin.com/in/dhiyaulhaq",
+      description: "linkedin.com/in/dhiyaulhaqprimayuga",
       icon: LINK_ICON,
       action: () =>
-        window.open("https://linkedin.com/in/dhiyaulhaq", "_blank"),
+        window.open("https://linkedin.com/in/dhiyaulhaqprimayuga", "_blank"),
       category: "Links",
     },
     {
       id: "copy-email",
       label: "Copy Email Address",
-      description: "dhiyaulhaq@email.com",
+      description: "dhiyaulhaqprimayuga@gmail.com",
       shortcut: "⌘C",
       icon: COPY_ICON,
       action: () => {
-        navigator.clipboard.writeText("dhiyaulhaq@email.com");
+        navigator.clipboard.writeText("dhiyaulhaqprimayuga@gmail.com");
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
       },
@@ -147,7 +147,7 @@ export default function CommandPalette() {
       description: "Open email client",
       icon: MAIL_ICON,
       action: () =>
-        (window.location.href = "mailto:dhiyaulhaq@email.com"),
+        (window.location.href = "mailto:dhiyaulhaqprimayuga@gmail.com"),
       category: "Actions",
     },
     {
